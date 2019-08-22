@@ -44,9 +44,14 @@ body {
 /* ======= FORM SECTION ======= */
 #form-section h2 {
 	margin-top: 0px;
-	background: blue;
 }
 
+#form-section {
+	height: 500px;
+	background: url(../images/shop.jpg);
+	background-size: 100% 100%;
+
+}
 
 
 
