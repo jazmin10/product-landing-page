@@ -1,0 +1,14 @@
+/* ======= GENERAL STYLING ======= */
+body {
+	margin: 0px;
+}
+
+/* ======= HEADER ======= */
+#header {
+	/*background: #4e3c32;*/
+}
+
+#header nav {
+	display: flex;
+	justify-content: space-between;
+}
