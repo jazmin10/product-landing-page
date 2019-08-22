@@ -21,4 +21,12 @@ body {
 }
  
 /* NAVBAR LINKS */
+#nav-bar ul {
+	display: flex;
+	list-style-type: none;
+}
 
+.nav-link {
+	margin-right: 30px;
+	text-decoration: none;
+}
