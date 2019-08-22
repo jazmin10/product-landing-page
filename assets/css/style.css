@@ -12,3 +12,9 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
+
+/* NAVBAR LOGO */
+#header-img {
+	width: 15%;
+    margin: 10px 20px;
+}
