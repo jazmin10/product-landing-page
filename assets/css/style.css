@@ -94,8 +94,8 @@ body {
 
 /* ======= HOW IT WORKS SECTION ======= */
 #how-it-works-section {
-	width: 70%;
-	margin: 40px auto;
+	background: #eeeeb2;
+	padding: 100px;
 }
 
 #how-it-works-section iframe {
