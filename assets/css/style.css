@@ -3,9 +3,6 @@ body {
 	margin: 0px;
 }
 
-#wrapper {
-	background: red;
-}
 /* ======= HEADER ======= */
 #header {
 	background: #4e3c32;
@@ -77,6 +74,22 @@ body {
 
 #submit {
 	margin: 0 auto;
+}
+
+/* FEATURES SECTION */
+#features-section {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 40px auto;
+}
+
+.feature {
+	display: flex;
+}
+
+.icon {
+	margin-right: 40px;
 }
 
 
