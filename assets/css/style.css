@@ -76,7 +76,7 @@ body {
 	margin: 0 auto;
 }
 
-/* FEATURES SECTION */
+/* ======= FEATURES SECTION ======= */
 #features-section {
 	display: flex;
 	flex-direction: column;
@@ -92,6 +92,16 @@ body {
 	margin-right: 40px;
 }
 
+/* ======= HOW IT WORKS SECTION ======= */
+#how-it-works-section {
+	width: 70%;
+	margin: 40px auto;
+}
+
+#how-it-works-section iframe {
+	display: block;
+	margin: 0 auto;
+}
 
 
 
