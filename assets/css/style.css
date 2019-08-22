@@ -107,7 +107,7 @@ body {
 #pricing-section {
 	width: 70%;
 	display: flex;
-	margin: 150px auto 0px auto;
+	margin: 150px auto;
 }
 
 .panel {
@@ -122,6 +122,9 @@ body {
 /* PANEL HEADER */
 .panel-header {
 	background: #eeeeb2;
+/*	background: #4e3c32;
+	color: #fff;*/
+
 }
 
 .panel-header h3 {
@@ -138,4 +141,41 @@ body {
 	padding: 10px 20px;
 	margin: 10px 0;
 	background: #ffff00;
+}
+
+
+/* ======= FOOTER ======= */
+footer {
+	background: gray;
+	overflow: auto;
+}
+
+/* FOOTER LINKS */
+.footer-links { 
+	display: flex;
+	justify-content: center;
+	margin: 0;
+    padding-top: 10px;
+}
+
+.footer-links li {
+	list-style-type: none;
+}
+
+.footer-links li:before {
+	content: "|";
+	color: white;
+}
+
+.footer-links li:first-child:before {
+	content: "";
+}
+
+.footer-links li a {
+	padding: 0px 30px;
+}
+
+/* FOOTER COPYRIGHT INFO */
+footer p {
+	text-align: center;
 }
