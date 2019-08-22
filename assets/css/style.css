@@ -107,17 +107,35 @@ body {
 #pricing-section {
 	width: 70%;
 	display: flex;
-	margin: 0 auto;
+	margin: 150px auto 0px auto;
 }
 
 .panel {
 	flex: 1 1 auto;
 	text-align: center;
 	margin: 0px 20px;
-	border: 5px solid black;
-	border-radius: 15px;
+	border: 1px solid black;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
+/* PANEL HEADER */
 .panel-header {
-	border-bottom: 5px solid black;
+	background: #eeeeb2;
+}
+
+.panel-header h3 {
+	margin: 0px;
+	padding: 10px;
+}
+
+/* PANEL BODY */
+.panel-body .price {
+	font-weight: bold;
+}
+
+.panel-body button {
+	padding: 10px 20px;
+	margin: 10px 0;
+	background: #ffff00;
 }
