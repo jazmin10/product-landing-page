@@ -3,6 +3,9 @@ body {
 	margin: 0px;
 }
 
+#wrapper {
+	background: red;
+}
 /* ======= HEADER ======= */
 #header {
 	background: #4e3c32;
@@ -38,7 +41,11 @@ body {
 	border-bottom: 3px solid #fff;
 }
 
-
+/* ======= FORM SECTION ======= */
+#form-section h2 {
+	margin-top: 0px;
+	background: blue;
+}
 
 
 
