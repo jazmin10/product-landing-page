@@ -5,7 +5,7 @@ body {
 
 /* ======= HEADER ======= */
 #header {
-	/*background: #4e3c32;*/
+	background: #4e3c32;
 }
 
 /* ======= NAVBAR ======= */
@@ -30,4 +30,18 @@ body {
 .nav-link {
 	margin-right: 30px;
 	text-decoration: none;
+	color: #fff;
+	padding-bottom: 5px;
 }
+
+.nav-link:hover {
+	border-bottom: 3px solid #fff;
+}
+
+
+
+
+
+
+
+
