@@ -346,12 +346,23 @@ footer {
 }
 
 /* How It Works Section */
-/*@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 	#how-it-works-section {
 		padding: 70px;
 	}
 }
-*/
+
+@media screen and (max-width: 650px) {
+	#how-it-works-section {
+		padding: 50px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#how-it-works-section {
+		padding: 30px;
+	}
+}
 
 
 
