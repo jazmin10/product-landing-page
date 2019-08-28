@@ -123,6 +123,7 @@ body {
 	font-size: 40px;
     letter-spacing: 2px;
     margin-bottom: 0px;
+    margin: 0px;
 }
 
 .feature-text p {
@@ -319,6 +320,19 @@ footer {
 
 	#form-section h2 {
 		font-size: 40px;
+	}
+}
+
+/* Features Section */
+@media screen and (max-width: 700px) {
+	#features-section {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.icon {
+		flex: 2;
 	}
 }
 
