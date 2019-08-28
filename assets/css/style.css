@@ -270,3 +270,31 @@ footer {
 		margin-bottom: 20px;
 	}
 }
+
+/* Switching layout of navbar links */
+@media screen and (max-width: 650px) {
+	#nav-bar {
+		flex-direction: column;
+	}
+
+	#header-img {
+		max-width: 100%;
+	}
+
+	#nav-bar ul {
+		padding: 0;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	#nav-bar ul {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.nav-link {
+		margin: 0px;
+	}
+}
+
