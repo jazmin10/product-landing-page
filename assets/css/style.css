@@ -74,6 +74,8 @@ body {
 
 #submit {
 	margin: 0 auto;
+	background: #c0be6b;
+	border: none;
 }
 
 /* ======= FEATURES SECTION ======= */
@@ -91,6 +93,7 @@ body {
 .icon {
 	flex: 1;
 	text-align: center;
+	color: #c0be6b;
 }
 
 .feature-text {
@@ -99,7 +102,7 @@ body {
 
 /* ======= HOW IT WORKS SECTION ======= */
 #how-it-works-section {
-	background: #eeeeb2;
+	background: #99876f;
 	padding: 100px;
 }
 
@@ -127,10 +130,7 @@ body {
 
 /* PANEL HEADER */
 .panel-header {
-	background: #eeeeb2;
-/*	background: #4e3c32;
-	color: #fff;*/
-
+	background: #d6d5cb;
 }
 
 .panel-header h3 {
@@ -146,13 +146,13 @@ body {
 .panel-body button {
 	padding: 10px 20px;
 	margin: 10px 0;
-	background: #ffff00;
+	background: #c0be6b;
 }
 
 
 /* ======= FOOTER ======= */
 footer {
-	background: gray;
+	background: #4e3c32;
 	overflow: auto;
 }
 
@@ -170,7 +170,7 @@ footer {
 
 .footer-links li:before {
 	content: "|";
-	color: white;
+	color: #99876f;
 }
 
 .footer-links li:first-child:before {
@@ -179,11 +179,17 @@ footer {
 
 .footer-links li a {
 	padding: 0px 30px;
+	color: #99876f;
+}
+
+footer hr {
+	border-color: #99876f;
 }
 
 /* FOOTER COPYRIGHT INFO */
 footer p {
 	text-align: center;
+	color: #99876f;
 }
 
 /* Sticky Footer */
@@ -200,3 +206,6 @@ body {
 footer {
   flex-shrink: 0;
 }
+
+
+/*color: #a7936c*/
