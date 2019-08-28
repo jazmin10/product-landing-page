@@ -32,6 +32,9 @@ body {
 	text-decoration: none;
 	color: #fff;
 	padding-bottom: 5px;
+	font-family: 'Italianno', cursive;
+	font-size: 25px;
+	letter-spacing: 1px;
 }
 
 .nav-link:hover {
@@ -42,13 +45,16 @@ body {
 #form-section h2 {
 	margin-top: 0px;
 	color: #fff;
+	font-family: 'Italianno', cursive;
+	font-size: 70px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
 }
 
 #form-section {
 	height: 500px;
 	background: url(../images/shop.jpg);
 	background-size: 100% 100%;
-
 }
 
 #thin-film {
@@ -61,7 +67,6 @@ body {
 }
 
 /* FORM */
-
 #form input {
 	display: block;
 }
@@ -70,12 +75,18 @@ body {
 	width: 250px;
 	margin: 0px auto 10px auto;
 	padding: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
 }
 
 #submit {
 	margin: 0 auto;
 	background: #c0be6b;
 	border: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+    padding: 5px 15px;
+    font-weight: bold;
 }
 
 /* ======= FEATURES SECTION ======= */
@@ -98,6 +109,16 @@ body {
 
 .feature-text {
 	flex: 4;
+}
+
+.feature-text h2 {
+	font-family: 'Italianno', cursive;
+	font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.feature-text p {
+	font-family: 'Raleway', sans-serif;
 }
 
 /* ======= HOW IT WORKS SECTION ======= */
@@ -131,14 +152,21 @@ body {
 /* PANEL HEADER */
 .panel-header {
 	background: #d6d5cb;
+	font-family: 'Italianno', cursive;
 }
 
 .panel-header h3 {
 	margin: 0px;
 	padding: 10px;
+	font-size: 30px;
+	letter-spacing: 1px;
 }
 
 /* PANEL BODY */
+.panel-body {
+	font-family: 'Raleway', sans-serif;
+}
+
 .panel-body .price {
 	font-weight: bold;
 }
@@ -149,11 +177,11 @@ body {
 	background: #c0be6b;
 }
 
-
 /* ======= FOOTER ======= */
 footer {
 	background: #4e3c32;
 	overflow: auto;
+	font-family: 'Raleway', sans-serif;
 }
 
 /* FOOTER LINKS */
@@ -190,6 +218,8 @@ footer hr {
 footer p {
 	text-align: center;
 	color: #99876f;
+	font-family: 'Italianno', cursive;
+	font-size: 30px;
 }
 
 /* Sticky Footer */
@@ -206,6 +236,3 @@ body {
 footer {
   flex-shrink: 0;
 }
-
-
-/*color: #a7936c*/
