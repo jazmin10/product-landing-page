@@ -274,6 +274,7 @@ footer {
 @media screen and (max-width: 900px) {
 	#pricing-section {
 		flex-direction: column;
+		margin: 80px auto;
 	}
 
 	.panel {
