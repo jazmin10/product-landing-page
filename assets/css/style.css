@@ -35,10 +35,11 @@ body {
 	font-family: 'Italianno', cursive;
 	font-size: 25px;
 	letter-spacing: 1px;
+	transition: color 1s;
 }
 
 .nav-link:hover {
-	border-bottom: 3px solid #fff;
+	color: #c0be6b; 
 }
 
 /* ======= FORM SECTION ======= */
