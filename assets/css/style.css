@@ -225,6 +225,10 @@ footer {
 	color: #99876f;
 }
 
+.footer-links li a:hover {
+	color: #fff;
+}
+
 footer hr {
 	border-color: #99876f;
 }
@@ -235,6 +239,7 @@ footer p {
 	color: #99876f;
 	font-family: 'Italianno', cursive;
 	font-size: 30px;
+	margin: 10px 0px;
 }
 
 /* Sticky Footer */
