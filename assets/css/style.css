@@ -87,6 +87,12 @@ body {
 	font-size: 15px;
     padding: 5px 15px;
     font-weight: bold;
+	transition: background 1s;
+}
+
+#submit:hover {
+	background: #959352;
+	cursor: pointer;
 }
 
 /* ======= FEATURES SECTION ======= */
@@ -175,6 +181,12 @@ body {
 	padding: 10px 20px;
 	margin: 10px 0;
 	background: #c0be6b;
+	transition: background 1s;
+}
+
+.panel-body button:hover {
+	background: #959352;
+	cursor: pointer;
 }
 
 /* ======= FOOTER ======= */
