@@ -122,10 +122,12 @@ body {
 	font-family: 'Italianno', cursive;
 	font-size: 40px;
     letter-spacing: 2px;
+    margin-bottom: 0px;
 }
 
 .feature-text p {
 	font-family: 'Raleway', sans-serif;
+	margin-top: 0px;
 }
 
 /* ======= HOW IT WORKS SECTION ======= */
