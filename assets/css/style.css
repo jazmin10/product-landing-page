@@ -256,3 +256,17 @@ body {
 footer {
   flex-shrink: 0;
 }
+
+
+/* ======= MEDIA QUERIES ======= */
+
+/* Switch pricing panels from row to column */
+@media screen and (max-width: 900px) {
+	#pricing-section {
+		flex-direction: column;
+	}
+
+	.panel {
+		margin-bottom: 20px;
+	}
+}
