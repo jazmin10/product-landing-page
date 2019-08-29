@@ -6,6 +6,10 @@ body {
 /* ======= HEADER ======= */
 #header {
 	background: #4e3c32;
+	position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
 
 /* ======= NAVBAR ======= */
@@ -40,6 +44,11 @@ body {
 
 .nav-link:hover {
 	color: #c0be6b; 
+}
+
+/* ======= MAIN ======= */
+main {
+	margin-top: 85px;
 }
 
 /* ======= FORM SECTION ======= */
@@ -295,6 +304,10 @@ footer {
 	#nav-bar ul {
 		padding: 0;
 	}
+
+	main {
+		margin-top: 150px;
+	}
 }
 
 
@@ -306,6 +319,10 @@ footer {
 
 	.nav-link {
 		margin: 0px;
+	}
+
+	main {
+		margin-top: 220px;
 	}
 }
 
